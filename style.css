@@ -1,0 +1,62 @@
+html, body, #frontpagemain {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background: #98999b url("images/fodbg.jpg") no-repeat fixed center;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+.navbar {
+  height: 10vh;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  background-color: #33363a;
+  border-bottom: 2px solid white;
+}
+
+#countdown {
+  padding: 2vh;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 5vh;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.frontpagemain {
+  position: relative;
+  width: 70vw;
+  margin: auto;
+  padding-top: 30vh;
+  text-align: center;
+}
+
+#login {
+  font-size: 3em;
+  width: 20vw;
+  position: relative;
+  margin: auto;
+  padding: 1vh 1vw;
+  bottom: -10vh;
+  font-family: Ubuntu, sans-serif;
+  color: LightBlue;
+  border: 2px solid white;
+  border-radius: 150px;
+  background-color: Black;
+}
+
+#login:hover, .highlight {
+  background-color: LightBlue;
+  color: Black;
+}
+
+#login:active {
+  box-shadow: 5px 5px 5px Black;
+}
